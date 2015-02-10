@@ -1,0 +1,252 @@
+﻿  html
+        {
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+        /* css reset */
+        body
+        {
+            color: #000;
+            background: #fff;
+            font-size: 12px;
+            font-family: verdana;
+        }
+        body, h1, h2, h3, ul, li, form, p, img
+        {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        input, button, select, img
+        {
+            margin: 0;
+            line-height: normal;
+        }
+        select
+        {
+            padding: 1px;
+        }
+        ul, dl
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        select, input, button, button img, label
+        {
+            vertical-align: middle;
+        }
+        header, footer, section, aside, nav, hgroup, figure, figcaption
+        {
+            display: block;
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+        a
+        {
+            text-decoration: none;
+            color: #014397;
+        }
+        a:hover
+        {
+            color: #d60002;
+        }
+        /* main */
+        .ibut,.ibuting, a.ghome, a.gjyj,.else_qq,.else_weibo
+        {
+            background: url(../img/iconbg.jpg) no-repeat;
+        }
+        .header_con, .main_con
+        {
+            width: 960px;
+            margin: 0 auto;
+        }
+        .header
+        {
+           
+            border-bottom: solid 1px #d9dada;
+        }
+        .header_con
+        {
+            height: 75px;
+            overflow: hidden;
+            clear: both;
+        }
+        .logo
+        {
+            padding-top: 10px;
+            float: left;
+        }
+        a.ghome
+        {
+            display: inline-block;
+            float: right;
+            height: 16px;
+            line-height: 16px;
+            background-position: -63px -28px;
+            padding-left: 20px;
+            margin-top: 43px;
+            text-decoration: none;
+        }
+        a.ghome:link, a.ghome:visited
+        {
+            color: #868383;
+        }
+        a.ghome:hover
+        {
+            color: #d60002;
+        }
+        .main
+        {
+            background-color: #eceded;
+            border-top: solid 1px #e6e7e7;
+            border-bottom: solid 1px #a1a0a0;
+        }
+        .main_con
+        {
+            background: url(../img/index/bgimg.jpg) no-repeat;
+            position: relative;
+            padding-bottom: 80px;
+        }
+        .loginblock
+        {
+            width: 416px;
+            float: right;
+            margin-top: 75px;
+            border: solid 1px #cdcdcd;
+            box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+            -webkit-box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+            -moz-box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+            border-radius: 3px;
+            background-color: #ffffff;
+        }
+        .dl_bt
+        {
+            padding-top: 25px;
+            position: relative;
+        }
+        .dl_bt2
+        {
+            padding-top: 15px;
+            margin-top: 15px;
+            background: url(../img/line.jpg) no-repeat 55px 0;
+        }
+        .dl_bt dd, .dl_bt2 dd
+        {
+            padding: 8px 0;
+            margin-left: 65px;
+            position: relative;
+        }
+        .dl_bt dd.wtext
+        {
+            padding: 0;
+            margin-left: 65px;
+            color: #d60002;
+            height: 15px;
+        }
+        .dl_bt dd.ddbut
+        {
+        }
+        .dl_bt dd span
+        {
+            padding-right: 10px;
+            display: inline-block;
+            width: 40px;
+            text-align: right;
+        }
+        .dl_bt dd b
+        {
+            position: relative;
+            top: 9px;
+        }
+        .dl_bt dd label, .dl_bt dd.wtext, .dl_bt dd.ddbut
+        {
+            padding-left: 50px;
+        }
+        .lgpt, .lgpt-focus
+        {
+            width: 220px;
+            line-height: 25px;
+            height: 25px;
+            font-size: 16px;
+            padding: 0 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .lgpt
+        {
+            border: solid 1px #c8c8c8;
+            background-color: #fff;
+        }
+        .lgpt-focus
+        {
+            border: solid 1px #8ab9e9;
+            background-color: #eef3f8;
+        }
+        .lgpt-c
+        {
+            margin-right: 3px;
+            margin-left: -3px\9;
+        }
+    .ibut,.ibuting{width: 79px; height: 24px;font-weight: bold;font-size: 14px;cursor: pointer;background-position: 0px 0px;border: 0; background-color: #e8850e;color: #fff;}
+.ibuting{font-size:12px;font-weight:normal;line-height:24px;}
+        .fgpw
+        {
+            margin-left: 85px;
+        }
+        .gray
+        {
+            color: #999999;
+        }
+        a.gjyj
+        {
+            display: inline-block;
+            width: 26px;
+            height: 121px;
+            background-position: 0 -28px;
+            position: absolute;
+            right: -28px;
+            bottom: 80px;
+        }
+        .footer
+        {
+            background-color: #ECEEED;
+            border-top: 1px solid #FFFFFF;
+            color: #868383;
+            height: 60px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        .phont
+        {
+            color: #423F3D;
+            display: block;
+            font-family: "微软雅黑";
+            font-size: 14px;
+            position: relative;
+            text-align: right;
+            top: 30px;
+        }
+        
+        .clearfloat
+        {
+            clear: both;
+            height: 0;
+            font-size: 1px;
+            line-height: 0;
+        }
+        .dl_bt dd span.yzts
+        {
+            position: absolute;
+            color: #999999;
+            width: 200px;
+            text-align: left;
+            left: 52px;
+            top: -2px;
+        }
+	/*2013-3-21新加其他登陆方式*/
+		.dl_bt dd.else{padding:10px 0 0 50px;}
+		.elsetit{color:#9a9a9a;padding-bottom:5px;}
+		a.elsetx{width:52px;height:22px;padding-left:22px;line-height:22px;display:inline-block;margin-right:15px;}
+		.else_qq,.else_weibo{width:17px;height:17px;line-height:17px;display:inline-block;margin:4px 0 0 -22px;float:left;background-position:-64px -53px;}
+		.else_weibo{background-position:-63px -81px;}

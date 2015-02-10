@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+	<version>1.0_20140529</version>
+	<versionCode>1</versionCode>
+	<updateTime>2014-05-29</updateTime>
+	<apkName>car11.apk</apkName>
+	<downloadURL>http://localhost:8080/updateApkServer/sems.apk</downloadURL>
+	<displayMessage>新版本发布,赶紧下载吧 </displayMessage>
+</update>
+
